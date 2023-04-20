@@ -1,6 +1,6 @@
 tasks:
   - name: vscode
     before: |
-      mkdir /workspace/4-problemas-com-tecnologia/.vscode/
-      touch /workspace/4-problemas-com-tecnologia/.vscode/settings.json
-      echo "{\"workbench.colorTheme\": \"Gitpod Dark\"}" >> /workspace/4-problemas-com-tecnologia/.vscode/settings.json
+      mkdir $GITPOD_REPO_ROOT/.vscode/
+      touch $GITPOD_REPO_ROOT/.vscode/settings.json
+      echo "{\"workbench.colorTheme\": \"Gitpod Dark\"}" >> $GITPOD_REPO_ROOT/.vscode/settings.json
